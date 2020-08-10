@@ -1,0 +1,15 @@
+name: ChatDevice
+api: [3.0.0, 4.0.0]
+version: 1.0
+main: LaithYT\ChatDevice\Main
+author: LaithYoutuber [LaithYT]
+
+commands:
+  pd:
+     description: Player Device Command
+     permission: pd.cmd.use
+
+permissions:
+  pd.cmd.use:
+    description: Player Device Command Permsission
+    default: op
